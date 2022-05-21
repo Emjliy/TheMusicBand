@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    overflow-x: hidden;
+
+}
+.custom-padding{
+    width: 100%;
+}
+.nav {
+    background: #333;
+}
+
+.nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav a:hover {
+    color: #000;
+    background-color: #ddd;
+    transition: all .5s ease;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+   right: 0;
+}
+
+.my-icon {
+    color: white;
+    font-size: 13px;
+    padding: 19px;
+    border: none;
+}
+
+.my-icon:hover {
+    background-color: #af1005;
+    transition: all .3s ease;
+}
+
+
+.slideshow-item img {
+    width: 100%;
+}
+
+.slideshow-item .img-summary {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    color: white;
+}
+
+.city-name {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.city-summary {
+    font-size: 17px;
+}
+
+.container-theband {
+    margin: 25px 65px;
+    text-align: center;
+}
+
+.theband-about {
+    line-height: 2em;
+}
+
+h5 {
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+span {
+    opacity: 0.6;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.items {
+    float: left;
+    margin-left: 70px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.pic {
+    border-radius: 0.7em;
+}
+
+#tourdates {
+    background-color: black;
+}
+
+.container-tourdates {
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 120px;
+
+}
+
+.tourdates-about {
+    padding-bottom: 40px;
+    padding-top: 80px;
+    line-height: 2em;
+}
+
+.tourdates-list {
+    background-color: white;
+    text-align: left;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.tourdates-items {
+    padding-left: 20px;
+    padding-top: 10px;
+    color: gray;
+    padding-bottom: 10px;
+    border-bottom: 0.8px solid rgb(182, 180, 180);
+}
+
+.city-info {
+    background-color: white;
+    margin-left: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.city p {
+    font-weight: 500;
+    color: black;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.city span {
+    color: black;
+    margin-left: 15px;
+
+}
+
+.city button {
+    background-color: black;
+    color: white;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+.cities {
+    display: flex;
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.cities img {
+    width: 322.5px;
+    height: 183.98;
+    padding-left: 12px;
+}
+
+
+.contact-about {
+    padding-bottom: 40px;
+    padding-top: 80px;
+    line-height: 2em;
+    text-align: center;
+}
+
+.contact-items {
+    margin-top: 50px;
+    margin-left: 20%;
+}
+
+
+.info-item i {
+    position: absolute;
+    margin-top: 4.5px;
+}
+
+.info-item p {
+    font-size: 17px;
+    margin-left: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+.form {
+    margin-left: 45%;
+    position: relative;
+    bottom: 110px;
+}
+
+
+.form-item input {
+    width: 184px;
+    height: 40px;
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid #9f9b9b;
+}
+
+
+.form-item:nth-child(3) input {
+    margin-top: 5px;
+    width: 65%;
+}
+
+.form-item:nth-child(4) button {
+    width: 18%;
+    height: 40px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-left: 270px;
+}
+
+
+#image img {
+    opacity: 0.9;
+    width: 100%;
+}
+
+.social-media {
+    margin-top: 60px;
+    padding-bottom: 80px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.powered {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #A0A0A0;
+}
+
+.powered a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+
+}
